@@ -18,24 +18,49 @@ export class OrdersService {
 
   async createOrder(orderData: any): Promise<Order> {
     const { items, ...orderInfo } = orderData;
-    
+
+    // Validate stock before creating order
+    if (items && Array.isArray(items)) {
+      for (const item of items) {
+        const productId = item.id || item.productId;
+        const quantityToCheck = item.quantity || 1;
+        const size = item.size ?? null;
+        if (!productId) continue;
+        const product = await this.productRepository.findOne({ where: { id: productId } });
+        if (!product) {
+          throw new Error(`Product not found: ${productId}`);
+        }
+        let available = 0;
+        if (size != null && product.sizeQuantities && typeof product.sizeQuantities === 'object') {
+          available = Number(product.sizeQuantities[size]) || 0;
+        } else {
+          available = Number(product.quantity) || 0;
+        }
+        if (quantityToCheck > available) {
+          throw new Error(
+            `Not enough stock for "${product.name}"${size ? ` (size ${size})` : ''}. Available: ${available}, requested: ${quantityToCheck}.`,
+          );
+        }
+      }
+    }
+
     // Generate unique order number
     const orderNumber = `ORD-${Date.now()}-${Math.random().toString(36).substr(2, 9).toUpperCase()}`;
-    
+
     const order = this.orderRepository.create({
       ...orderInfo,
       orderNumber,
     });
-    
+
     const savedOrderResult = await this.orderRepository.save(order);
-    
+
     // TypeORM save() can return T | T[], but we know it's a single entity here
     if (Array.isArray(savedOrderResult)) {
       throw new Error('Unexpected array returned from save');
     }
-    
+
     const savedOrder: Order = savedOrderResult;
-    
+
     // Create order items and decrease product quantities
     if (items && Array.isArray(items)) {
       const orderItems = items.map(item => 
