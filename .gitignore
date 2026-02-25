@@ -42,6 +42,9 @@ lerna-debug.log*
 .env.production.local
 .env.local
 
+# Seed data (optional: commit if you want to share; ignore if it contains sensitive data)
+# /seed-data
+
 # temp directory
 .temp
 .tmp

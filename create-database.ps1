@@ -20,7 +20,7 @@ try {
         Write-Host "Failed to create database. Trying alternative method..." -ForegroundColor Yellow
         Write-Host ""
         Write-Host "Please run this command manually:" -ForegroundColor Yellow
-        Write-Host "psql -U postgres -c `"CREATE DATABASE riders_forge;`"" -ForegroundColor White
+        Write-Host 'psql -U postgres -c "CREATE DATABASE riders_forge;"' -ForegroundColor White
     }
 } catch {
     Write-Host ""
