@@ -27,6 +27,6 @@ export const databaseConfig: TypeOrmModuleOptions = {
   type: 'postgres',
   url: getDatabaseUrl(),
   entities: [Product, User, Order, OrderItem, ContactRequest, GraphicsRequest],
-  synchronize: process.env.NODE_ENV !== 'production',
+  synchronize: true,
   logging: process.env.NODE_ENV === 'development',
 };
