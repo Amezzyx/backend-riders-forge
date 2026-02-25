@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Kolibjár",
+    "email": "alexkolibjar@gmail.com",
+    "subject": "test",
+    "message": "test",
+    "status": "Pending",
+    "createdAt": "2026-02-17T10:08:41.443Z"
+  },
+  {
+    "id": 2,
+    "name": "lalasdm asd",
+    "email": "asd@asd.co",
+    "subject": "test",
+    "message": "asdasd",
+    "status": "Resolved",
+    "createdAt": "2026-02-24T16:13:22.251Z"
+  },
+  {
+    "id": 3,
+    "name": "peto nagy",
+    "email": "petrnagy@gmail.com",
+    "subject": "test",
+    "message": "ahojte mamamsadaskdasnkldjasdlasdlkasdassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+    "status": "Pending",
+    "createdAt": "2026-02-24T16:15:09.677Z"
+  }
+]

@@ -1,0 +1,1054 @@
+[
+  {
+    "id": 215,
+    "name": "Skull Hoodie Men Black",
+    "price": "70.00",
+    "regularPrice": null,
+    "description": "",
+    "category": "Men",
+    "subcategory": "Hoodies & Sweaters",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/ar100128-01-00101-419769_1200x.jpg?v=1745023247",
+    "isNew": true,
+    "isActive": true,
+    "quantity": 29,
+    "sizeQuantities": {
+      "S": 7,
+      "M": 4,
+      "L": 6,
+      "XL": 6,
+      "XXL": 6
+    }
+  },
+  {
+    "id": 216,
+    "name": "Premium Zip Hoodie Grey",
+    "price": "85.00",
+    "regularPrice": "120.00",
+    "description": "",
+    "category": "Men",
+    "subcategory": "Hoodies & Sweaters",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/skullzippercharcoalgrey01-421987_800x.jpg?v=1745021766",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 65,
+    "sizeQuantities": {
+      "S": 13,
+      "M": 13,
+      "L": 13,
+      "XL": 13,
+      "XXL": 13
+    }
+  },
+  {
+    "id": 217,
+    "name": "Classic Pullover Hoodie",
+    "price": "65.00",
+    "regularPrice": null,
+    "description": "",
+    "category": "Men",
+    "subcategory": "Hoodies & Sweaters",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/skullcrewneckdeepblack01-422412_800x.jpg?v=1746211151",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 40,
+    "sizeQuantities": {
+      "S": 8,
+      "M": 8,
+      "L": 8,
+      "XL": 8,
+      "XXL": 8
+    }
+  },
+  {
+    "id": 218,
+    "name": "Skull Tee Men Black",
+    "price": "35.00",
+    "regularPrice": null,
+    "description": "",
+    "category": "Men",
+    "subcategory": "T-shirts",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/skullteedeepblack01-421908_1200x.jpg?v=1745021809",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 26,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 6,
+      "XL": 4,
+      "XXL": 8
+    }
+  },
+  {
+    "id": 219,
+    "name": "Classic White Tee",
+    "price": "29.99",
+    "regularPrice": "45.00",
+    "description": "",
+    "category": "Men",
+    "subcategory": "T-shirts",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/basicteewhite01jpg-429378_800x.jpg?v=1748521888",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 40,
+    "sizeQuantities": {
+      "S": 8,
+      "M": 8,
+      "L": 8,
+      "XL": 8,
+      "XXL": 8
+    }
+  },
+  {
+    "id": 220,
+    "name": "Graphic Print Tee",
+    "price": "39.99",
+    "regularPrice": null,
+    "description": null,
+    "category": "Men",
+    "subcategory": "T-shirts",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/tee-black-yamaha-blue-frontjpg-430627_800x.jpg?v=1753199577",
+    "isNew": true,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 221,
+    "name": "Windbreaker Charcoal Grey",
+    "price": "99.00",
+    "regularPrice": null,
+    "description": "",
+    "category": "Men",
+    "subcategory": "Jackets",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/windbreakercharcoalgrey01-420628_1200x.jpg?v=1766062582",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 40,
+    "sizeQuantities": {
+      "S": 8,
+      "M": 8,
+      "L": 8,
+      "XL": 8,
+      "XXL": 8
+    }
+  },
+  {
+    "id": 222,
+    "name": "Waterproof Rain Jacket",
+    "price": "129.99",
+    "regularPrice": "180.00",
+    "description": null,
+    "category": "Men",
+    "subcategory": "Jackets",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/skullshelljacket01-423302_800x.jpg?v=1745020148",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 223,
+    "name": "Bomber Jacket Black",
+    "price": "149.00",
+    "regularPrice": null,
+    "description": null,
+    "category": "Men",
+    "subcategory": "Jackets",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/collegeessentialjacket01-421961_800x.jpg?v=1745022699",
+    "isNew": true,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 224,
+    "name": "Cargo Pants Black",
+    "price": "79.99",
+    "regularPrice": "110.00",
+    "description": null,
+    "category": "Men",
+    "subcategory": "Pants",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/cargopantsblack01-420026_800x.jpg?v=1745022486",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 225,
+    "name": "Jogger Pants Grey",
+    "price": "59.99",
+    "regularPrice": null,
+    "description": null,
+    "category": "Men",
+    "subcategory": "Pants",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/trackpantsdeepblack01-420013_800x.jpg?v=1745021259",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 226,
+    "name": "Athletic Shorts Black",
+    "price": "44.99",
+    "regularPrice": "65.00",
+    "description": null,
+    "category": "Men",
+    "subcategory": "Shorts",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/triplefshortsdeepblack01-420887_800x.jpg?v=1763559244",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 227,
+    "name": "Cargo Shorts Khaki",
+    "price": "54.99",
+    "regularPrice": null,
+    "description": null,
+    "category": "Men",
+    "subcategory": "Shorts",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/triplefshortsolivegreen01-421344_800x.jpg?v=1763559274",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 228,
+    "name": "6er Pack Boxershorts",
+    "price": "34.99",
+    "regularPrice": "60.00",
+    "description": null,
+    "category": "Men",
+    "subcategory": "Shorts",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/Boxershorts_6er_Schwarz_800x.jpg?v=1764948217",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 229,
+    "name": "Premium Boxer Briefs 2-Pack",
+    "price": "20.00",
+    "regularPrice": "50.00",
+    "description": null,
+    "category": "Men",
+    "subcategory": "Underwear",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/boxershorts-2-pairs-charcoal-grey-423288_800x.jpg?v=1745021468",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 230,
+    "name": "3er Pack Sports Bra",
+    "price": "24.99",
+    "regularPrice": "105.00",
+    "description": null,
+    "category": "Women",
+    "subcategory": "Sports Bras & Bodysuits",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/3er_Pack_Sports_Bra_800x.jpg?v=1764239309",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 23,
+    "sizeQuantities": {
+      "XS": 4,
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 3
+    }
+  },
+  {
+    "id": 234,
+    "name": "3er Pack Sports Bodysuit",
+    "price": "24.99",
+    "regularPrice": "105.00",
+    "description": null,
+    "category": "Women",
+    "subcategory": null,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/3er_Pack_Sports_Bodysuite_800x.jpg?v=1764242988",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 23,
+    "sizeQuantities": {
+      "XS": 3,
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 236,
+    "name": "Box Hoodie Women Pink",
+    "price": "19.99",
+    "regularPrice": "65.00",
+    "description": null,
+    "category": "Women",
+    "subcategory": "Hoodies",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/boxhoodiewomanpink01-423087_800x.jpg?v=1745022827",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 23,
+    "sizeQuantities": {
+      "XS": 4,
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 3,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 237,
+    "name": "Skull Tee Women Black",
+    "price": "70.00",
+    "regularPrice": null,
+    "description": null,
+    "category": "Women",
+    "subcategory": null,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/skullteewoman01-422816_800x.jpg?v=1746211854",
+    "isNew": true,
+    "isActive": true,
+    "quantity": 24,
+    "sizeQuantities": {
+      "XS": 4,
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 239,
+    "name": "Box Sweatpants Women Black",
+    "price": "19.99",
+    "regularPrice": "60.00",
+    "description": null,
+    "category": "Women",
+    "subcategory": "Sweatpants",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/boxsweapantsback01-420148_800x.jpg?v=1745020877",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 24,
+    "sizeQuantities": {
+      "XS": 4,
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 240,
+    "name": "High-Waist Leggings",
+    "price": "44.99",
+    "regularPrice": "75.00",
+    "description": null,
+    "category": "Women",
+    "subcategory": "Leggings",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/3er_Pack_Leggings_800x.jpg?v=1764237737",
+    "isNew": true,
+    "isActive": true,
+    "quantity": 24,
+    "sizeQuantities": {
+      "XS": 4,
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 242,
+    "name": "Box Sweatpants Pink Women",
+    "price": "19.99",
+    "regularPrice": "50.00",
+    "description": null,
+    "category": "Women",
+    "subcategory": "Sweatpants",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/boxsweapantspink01-419925_800x.jpg?v=1745022850",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 24,
+    "sizeQuantities": {
+      "XS": 4,
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 243,
+    "name": "MX Gloves",
+    "price": "45.00",
+    "regularPrice": null,
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "Gloves",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/ar100254-00101-422785_800x.jpg?v=1745019125",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 16,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4
+    }
+  },
+  {
+    "id": 244,
+    "name": "Racing Gloves Pro",
+    "price": "69.99",
+    "regularPrice": "95.00",
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "Gloves",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "http://grenzgaenger-shop.com/cdn/shop/files/ar100255-00101-420317_800x.jpg?v=1746209334",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 16,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4
+    }
+  },
+  {
+    "id": 245,
+    "name": "MX Goggles",
+    "price": "65.00",
+    "regularPrice": null,
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "MX Goggles",
+    "sizes": [
+      "One Size"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/mxvpurple01jpg-431936_800x.jpg?v=1762418649",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 4,
+    "sizeQuantities": {
+      "One Size": 4
+    }
+  },
+  {
+    "id": 246,
+    "name": "Pro Racing Goggles",
+    "price": "89.99",
+    "regularPrice": "120.00",
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "MX Goggles",
+    "sizes": [
+      "One Size"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/nfxgogglescamogreen01jpg-433298_800x.jpg?v=1770900871",
+    "isNew": true,
+    "isActive": true,
+    "quantity": 4,
+    "sizeQuantities": {
+      "One Size": 4
+    }
+  },
+  {
+    "id": 247,
+    "name": "MX Racing Pants",
+    "price": "199.99",
+    "regularPrice": "280.00",
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "MX Pants",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/ar100250-00101-419929_800x.jpg?v=1746208924",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 248,
+    "name": "MX Enduro Pants",
+    "price": "179.99",
+    "regularPrice": null,
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "MX Pants",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/endurance-mx-pants-black01jpg-430079_800x.jpg?v=1750689383",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 249,
+    "name": "MX Jersey Pro",
+    "price": "54.99",
+    "regularPrice": "80.00",
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "MX Jerseys",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/endurance-mx-jersey-black01jpg-430052_800x.jpg?v=1750687305",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 250,
+    "name": "Racing Jersey",
+    "price": "49.99",
+    "regularPrice": null,
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "MX Jerseys",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/endurancejersey01-420501_800x.jpg?v=1746208908",
+    "isNew": true,
+    "isActive": true,
+    "quantity": 20,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4,
+      "XXL": 4
+    }
+  },
+  {
+    "id": 251,
+    "name": "MX Helmet",
+    "price": "149.00",
+    "regularPrice": null,
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "Helmets",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/ar100234-00101-421459_800x.jpg?v=1745019066",
+    "isNew": true,
+    "isActive": true,
+    "quantity": 16,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4
+    }
+  },
+  {
+    "id": 253,
+    "name": "MX Gear Bag",
+    "price": "79.99",
+    "regularPrice": "120.00",
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "Bags",
+    "sizes": [
+      "One Size"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/ar10024801jpg-426516_800x.jpg?v=1745497818",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 4,
+    "sizeQuantities": {
+      "One Size": 4
+    }
+  },
+  {
+    "id": 254,
+    "name": "Tool Bag",
+    "price": "44.99",
+    "regularPrice": null,
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "Bags",
+    "sizes": [
+      "One Size"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/ar10024901jpg-426548_800x.jpg?v=1745497599",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 4,
+    "sizeQuantities": {
+      "One Size": 4
+    }
+  },
+  {
+    "id": 255,
+    "name": "Chest Protector",
+    "price": "89.99",
+    "regularPrice": "130.00",
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": "Protectors",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/ar10042801-420973_800x.jpg?v=1745021186",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 16,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4
+    }
+  },
+  {
+    "id": 256,
+    "name": "Knee Guards",
+    "price": "59.99",
+    "regularPrice": "85.00",
+    "description": null,
+    "category": "MX Gear",
+    "subcategory": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/kneeprotector1-420726_800x.jpg?v=1760005315",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 16,
+    "sizeQuantities": {
+      "S": 4,
+      "M": 4,
+      "L": 4,
+      "XL": 4
+    }
+  },
+  {
+    "id": 257,
+    "name": "Backpack Black",
+    "price": "69.99",
+    "regularPrice": "100.00",
+    "description": null,
+    "category": "Accessories",
+    "subcategory": null,
+    "sizes": [
+      "One Size"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/ar10014801jpg-426381_800x.jpg?v=1745427000",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 4,
+    "sizeQuantities": {
+      "One Size": 4
+    }
+  },
+  {
+    "id": 259,
+    "name": "Red Sunglasses",
+    "price": "79.99",
+    "regularPrice": "120.00",
+    "description": null,
+    "category": "Accessories",
+    "subcategory": null,
+    "sizes": [
+      "One Size"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/shadesriskyred01jpg-426448_800x.jpg?v=1745498117",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 4,
+    "sizeQuantities": {
+      "One Size": 4
+    }
+  },
+  {
+    "id": 260,
+    "name": "Green Sunglasses",
+    "price": "64.99",
+    "regularPrice": null,
+    "description": null,
+    "category": "Accessories",
+    "subcategory": null,
+    "sizes": [
+      "One Size"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/shadesshadesfreshgreen01jpg-426450_800x.jpg?v=1745498130",
+    "isNew": true,
+    "isActive": true,
+    "quantity": 4,
+    "sizeQuantities": {
+      "One Size": 4
+    }
+  },
+  {
+    "id": 261,
+    "name": "Snapback Cap Black",
+    "price": "29.99",
+    "regularPrice": "45.00",
+    "description": null,
+    "category": "Accessories",
+    "subcategory": null,
+    "sizes": [
+      "One Size"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/skullsnapback01jpg-426546_800x.jpg?v=1745497636",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 4,
+    "sizeQuantities": {
+      "One Size": 4
+    }
+  },
+  {
+    "id": 262,
+    "name": "Beanie Black",
+    "price": "19.99",
+    "regularPrice": null,
+    "description": null,
+    "category": "Accessories",
+    "subcategory": null,
+    "sizes": [
+      "One Size"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/skullbeanie01jpg-429971_800x.jpg?v=1749825886",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 4,
+    "sizeQuantities": {
+      "One Size": 4
+    }
+  },
+  {
+    "id": 263,
+    "name": "Sticker Pack (10 pieces)",
+    "price": "9.99",
+    "regularPrice": "15.00",
+    "description": "",
+    "category": "Accessories",
+    "subcategory": null,
+    "sizes": [
+      "One Size"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/ar10024401jpg-426542_800x.jpg?v=1745497657",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 0,
+    "sizeQuantities": {
+      "One Size": 0
+    }
+  },
+  {
+    "id": 264,
+    "name": "Socks (12 pairs) Deep Black",
+    "price": "34.99",
+    "regularPrice": "75.00",
+    "description": null,
+    "category": "Accessories",
+    "subcategory": null,
+    "sizes": [
+      "39-42",
+      "43-46"
+    ],
+    "image": "https://grenzgaenger-shop.com/cdn/shop/files/sockswhite12er-421400_800x.jpg?v=1745023595",
+    "isNew": false,
+    "isActive": true,
+    "quantity": 8,
+    "sizeQuantities": {
+      "39-42": 4,
+      "43-46": 4
+    }
+  }
+]
