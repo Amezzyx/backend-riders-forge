@@ -44,7 +44,11 @@ function normalizeProduct(row: Record<string, unknown>): Record<string, unknown>
 
 async function run(): Promise<void> {
   loadEnv();
-  await AppDataSource.initialize();
+  await AppDataSource.initialize();await AppDataSource.initialize();
+
+  
+  await AppDataSource.synchronize();
+  console.log('Database synchronized (tables created if missing).');
 
   const clearFirst = process.env.SEED_CLEAR !== '0';
 
