@@ -67,7 +67,8 @@ export class OrdersService {
               sizeQuantities[size] = Math.max(0, currentSizeQty - quantityToDeduct);
               
               // Also update total quantity
-              const totalQuantity = Object.values(sizeQuantities).reduce((sum, qty) => sum + (qty || 0), 0);
+              const totalQuantity = (Object.values(sizeQuantities) as number[])
+  .reduce((sum, qty) => sum + (qty || 0), 0);
               await this.productRepository.update(productId, { 
                 sizeQuantities,
                 quantity: totalQuantity
