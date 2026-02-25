@@ -44,16 +44,20 @@ function normalizeProduct(row: Record<string, unknown>): Record<string, unknown>
 
 async function run(): Promise<void> {
   loadEnv();
-  await AppDataSource.initialize();await AppDataSource.initialize();
 
-  
+  if (!AppDataSource.isInitialized) {
+    await AppDataSource.initialize();
+  }
+
   await AppDataSource.synchronize();
   console.log('Database synchronized (tables created if missing).');
 
   const clearFirst = process.env.SEED_CLEAR !== '0';
 
   if (clearFirst) {
-    await AppDataSource.query('TRUNCATE TABLE order_items, orders, contact_requests, graphics_requests, products, users RESTART IDENTITY CASCADE');
+    await AppDataSource.query(
+      'TRUNCATE TABLE order_items, orders, contact_requests, graphics_requests, products, users RESTART IDENTITY CASCADE',
+    );
     console.log('Tables truncated.');
   }
 
