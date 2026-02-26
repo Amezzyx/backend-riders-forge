@@ -3,7 +3,6 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { randomBytes } from 'crypto';
 import { User } from '../entities/user.entity';
-import { MailService } from '../mail/mail.service';
 import * as bcrypt from 'bcrypt';
 
 @Injectable()
@@ -11,7 +10,6 @@ export class UsersService {
   constructor(
     @InjectRepository(User)
     private readonly userRepository: Repository<User>,
-    private readonly mailService: MailService,
   ) {}
 
   async register(registerDto: {
@@ -96,7 +94,7 @@ export class UsersService {
     return userWithoutPassword as User;
   }
 
-  async requestPasswordReset(email: string): Promise<{ ok: boolean }> {
+  async requestPasswordReset(email: string): Promise<{ ok: boolean; resetCode?: string }> {
     const user = await this.userRepository.findOne({ where: { email } });
     if (!user) {
       return { ok: true };
@@ -107,20 +105,7 @@ export class UsersService {
       passwordResetToken: resetToken,
       passwordResetExpiresAt,
     });
-    try {
-      await this.mailService.sendPasswordReset(user.email, {
-        firstName: user.firstName ?? undefined,
-        resetToken,
-      });
-    } catch {
-      // Don't reveal whether email exists; still clear token so user can retry
-      await this.userRepository.update(user.id, {
-        passwordResetToken: null,
-        passwordResetExpiresAt: null,
-      });
-      return { ok: true };
-    }
-    return { ok: true };
+    return { ok: true, resetCode: resetToken };
   }
 
   async resetPassword(token: string, newPassword: string): Promise<{ ok: boolean }> {

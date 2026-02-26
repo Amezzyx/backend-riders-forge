@@ -4,7 +4,6 @@ import { Repository } from 'typeorm';
 import { Order } from '../entities/order.entity';
 import { OrderItem } from '../entities/order-item.entity';
 import { Product } from '../entities/product.entity';
-import { MailService } from '../mail/mail.service';
 
 @Injectable() 
 export class OrdersService {
@@ -15,7 +14,6 @@ export class OrdersService {
     private readonly orderItemRepository: Repository<OrderItem>,
     @InjectRepository(Product)
     private readonly productRepository: Repository<Product>,
-    private readonly mailService: MailService,
   ) {}
 
   async createOrder(orderData: any): Promise<Order> {
@@ -108,29 +106,6 @@ export class OrdersService {
           }
         }
       }
-    }
-    try {
-      const toEmail = orderInfo.email || orderInfo.customerEmail || orderInfo.userEmail;
-    
-      if (toEmail) {
-        await this.mailService.sendOrderConfirmation(toEmail, {
-          firstName: orderInfo.firstName || orderInfo.name || '',
-          orderNumber: savedOrder.orderNumber,
-          total: String(savedOrder.total ?? ''),
-          itemsCount: Array.isArray(items) ? items.length : 0,
-          deliveryAddress: [
-            orderInfo.address,
-            orderInfo.city,
-            orderInfo.postalCode,
-            orderInfo.country,
-          ]
-            .filter(Boolean)
-            .join(', '),
-          orderUrl: `${process.env.APP_URL || 'https://frontend-riders-forge-git-main-amezzyxs-projects.vercel.app/'}/orders/${encodeURIComponent(savedOrder.orderNumber)}`,
-        });
-      }
-    } catch (e) {
-      console.error('Order confirmation email failed:', e);
     }
 
     return await this.getOrderById(savedOrder.id);

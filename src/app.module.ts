@@ -18,7 +18,6 @@ import { UsersController } from './users/users.controller';
 import { UsersService } from './users/users.service';
 
 import { RequestsModule } from './requests/requests.module';
-import { MailModule } from './mail/mail.module';
 
 import { databaseConfig } from './config/database.config';
 
@@ -37,7 +36,6 @@ import { GraphicsRequest } from './entities/graphics-request.entity';
     TypeOrmModule.forRoot(databaseConfig),
     TypeOrmModule.forFeature([Product, User, Order, OrderItem, ContactRequest, GraphicsRequest]),
     RequestsModule,
-    MailModule,
   ],
   controllers: [
     AppController,
