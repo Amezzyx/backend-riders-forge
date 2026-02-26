@@ -29,6 +29,32 @@ export class UsersController {
     }
   }
 
+  @Post('forgot-password')
+  async forgotPassword(@Body() body: { email: string }) {
+    if (!body?.email || typeof body.email !== 'string') {
+      throw new BadRequestException('Email is required');
+    }
+    return await this.usersService.requestPasswordReset(body.email.trim());
+  }
+
+  @Post('reset-password')
+  async resetPassword(@Body() body: { token: string; newPassword: string }) {
+    if (!body?.token || !body?.newPassword) {
+      throw new BadRequestException('Token and new password are required');
+    }
+    if (typeof body.newPassword !== 'string' || body.newPassword.length < 6) {
+      throw new BadRequestException('Password must be at least 6 characters');
+    }
+    try {
+      return await this.usersService.resetPassword(body.token, body.newPassword);
+    } catch (error) {
+      if (error.message && error.message.includes('Invalid or expired')) {
+        throw new BadRequestException(error.message);
+      }
+      throw new BadRequestException(error.message || 'Reset failed');
+    }
+  }
+
   @Get(':id')
   async getUser(@Param('id') id: string) {
     return await this.usersService.getUserById(id);

@@ -1,7 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
+import { randomBytes } from 'crypto';
 import { User } from '../entities/user.entity';
+import { MailService } from '../mail/mail.service';
 import * as bcrypt from 'bcrypt';
 
 @Injectable()
@@ -9,6 +11,7 @@ export class UsersService {
   constructor(
     @InjectRepository(User)
     private readonly userRepository: Repository<User>,
+    private readonly mailService: MailService,
   ) {}
 
   async register(registerDto: {
@@ -91,6 +94,49 @@ export class UsersService {
     }
     const { password, ...userWithoutPassword } = user;
     return userWithoutPassword as User;
+  }
+
+  async requestPasswordReset(email: string): Promise<{ ok: boolean }> {
+    const user = await this.userRepository.findOne({ where: { email } });
+    if (!user) {
+      return { ok: true };
+    }
+    const resetToken = randomBytes(32).toString('hex');
+    const passwordResetExpiresAt = new Date(Date.now() + 60 * 60 * 1000); // 1 hour
+    await this.userRepository.update(user.id, {
+      passwordResetToken: resetToken,
+      passwordResetExpiresAt,
+    });
+    try {
+      await this.mailService.sendPasswordReset(user.email, {
+        firstName: user.firstName ?? undefined,
+        resetToken,
+      });
+    } catch {
+      // Don't reveal whether email exists; still clear token so user can retry
+      await this.userRepository.update(user.id, {
+        passwordResetToken: null,
+        passwordResetExpiresAt: null,
+      });
+      return { ok: true };
+    }
+    return { ok: true };
+  }
+
+  async resetPassword(token: string, newPassword: string): Promise<{ ok: boolean }> {
+    const user = await this.userRepository.findOne({
+      where: { passwordResetToken: token },
+    });
+    if (!user || !user.passwordResetExpiresAt || user.passwordResetExpiresAt < new Date()) {
+      throw new Error('Invalid or expired reset link. Please request a new one.');
+    }
+    const hashedPassword = await bcrypt.hash(newPassword, 10);
+    await this.userRepository.update(user.id, {
+      password: hashedPassword,
+      passwordResetToken: null,
+      passwordResetExpiresAt: null,
+    });
+    return { ok: true };
   }
 
   async updateProfile(id: string, profileData: Partial<User>): Promise<User> {

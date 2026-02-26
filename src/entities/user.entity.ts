@@ -11,6 +11,12 @@ export class User {
   @Column()
   password: string;
 
+  @Column({ nullable: true })
+  passwordResetToken: string | null;
+
+  @Column({ type: 'timestamp', nullable: true })
+  passwordResetExpiresAt: Date | null;
+
   @Column()
   name: string;
 

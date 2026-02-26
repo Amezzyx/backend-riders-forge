@@ -13,12 +13,12 @@ export class MailService {
   private readonly replyTo = process.env.MAIL_REPLY_TO || this.fromEmail;
   private readonly appUrl = process.env.APP_URL || 'http://localhost:3000';
 
-  // Template IDs (podľa tvojho Brevo listu)
+ 
   private readonly templates = {
-    PASSWORD_RESET: 1,
-    ORDER_CONFIRMED: 2,
-    ORDER_SHIPPED: 3,
-    SUPPORT_AUTO_REPLY: 4,
+    PASSWORD_RESET: Number(process.env.BREVO_TEMPLATE_PASSWORD_RESET),
+    ORDER_CONFIRMED: Number(process.env.BREVO_TEMPLATE_ORDER_CONFIRMED),
+    ORDER_SHIPPED: Number(process.env.BREVO_TEMPLATE_ORDER_SHIPPED),
+    SUPPORT_AUTO_REPLY: Number(process.env.BREVO_TEMPLATE_SUPPORT_AUTO_REPLY),
   } as const;
 
   private readonly http: AxiosInstance;
