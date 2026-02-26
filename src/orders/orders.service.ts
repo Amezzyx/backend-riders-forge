@@ -126,7 +126,7 @@ export class OrdersService {
           ]
             .filter(Boolean)
             .join(', '),
-          orderUrl: `${process.env.APP_URL || 'http://localhost:3000'}/orders/${encodeURIComponent(savedOrder.orderNumber)}`,
+          orderUrl: `${process.env.APP_URL || 'https://frontend-riders-forge-git-main-amezzyxs-projects.vercel.app/'}/orders/${encodeURIComponent(savedOrder.orderNumber)}`,
         });
       }
     } catch (e) {
