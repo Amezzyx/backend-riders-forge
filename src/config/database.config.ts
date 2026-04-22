@@ -29,4 +29,7 @@ export const databaseConfig: TypeOrmModuleOptions = {
   entities: [Product, User, Order, OrderItem, ContactRequest, GraphicsRequest],
   synchronize: true,
   logging: process.env.NODE_ENV === 'development',
+  ssl: process.env.DATABASE_URL?.includes('render.com')
+    ? { rejectUnauthorized: false }
+    : false,
 };
